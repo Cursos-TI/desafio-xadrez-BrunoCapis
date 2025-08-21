@@ -11,7 +11,7 @@ int main () {
 printf ("\n###############################\n");
 
     while ( bispo <=5 ){     // movimentação do bispo 
-        printf ("Bispo anda para diagonal superior direita %d vezes\n", bispo);
+        printf ("Bispo anda para diagonal superior direita %d casas\n", bispo);
         bispo ++;
     }
 
@@ -38,6 +38,7 @@ printf ("\n###############################\n");
 }
 
     
+
 
 
 

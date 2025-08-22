@@ -6,36 +6,61 @@
 */
 
 int main () {
+
+
+
     int  bispo = 1, torre = 1; // declaração de variaveis
 
 printf ("\n###############################\n");
 
+printf("\nMovimentação do Bispo\n");
+
     while ( bispo <=5 ){     // movimentação do bispo 
-        printf ("Bispo anda para diagonal superior direita %d casas\n", bispo);
+        printf ("Diagonal Superior Direita\n");
         bispo ++;
     }
 
     printf("\n###############################\n");
 
-    
+    printf("\nMovimentação da Torre \n");
+
     do {
-        printf ("Torre se movimenta %d casas para a direita \n", torre);
+        printf ("Direita\n");
         torre ++;
     }while (torre <= 5);
 
     printf("\n###############################\n");
 
     for (int rainha = 1 ; rainha <= 8; rainha++) {
-        printf ("Rainha se movimenta %d casas para a esquerda\n", rainha);
+        printf ("Esquerda\n");
 
     }
+
+    printf("\n###############################\n");
+
+    printf ("\n Movimentação do Cavalo\n");
+    
+    int movimentocavalo = 1;
+    
+while (movimentocavalo --)  
+    {
+        for (int i =0 ; i <=  1 ; i++) {
+            printf ("Baixo \n", i);
+        }
+            printf ("Esquerda\n");
+}
+
 
 
 
 
     return 0;
-
 }
+
+
+
+
+
 
     
 
